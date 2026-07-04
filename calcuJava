@@ -5,6 +5,7 @@ void main() {
 
     IO.println("1. Sumar");
     IO.println("2. Restar");
+    IO.println("3. Multiplicar");
 
     texto = IO.readln("Seleccione una opción: ");
     opcion = Integer.parseInt(texto);
@@ -19,15 +20,19 @@ void main() {
 
         case 1:
 
-            int suma = num1 + num2;
-            IO.println("El resultado es: " + suma);
+            IO.println("El resultado es: " + (num1 + num2));
 
         break;
 
         case 2:
 
-            int resta = num1 - num2;
-            IO.println("El resultado es: " + resta);
+            IO.println("El resultado es: " + (num1 - num2));
+
+        break;
+
+        case 3:
+
+            IO.println("El resultado es: " + (num1 * num2));
 
         break;
 
