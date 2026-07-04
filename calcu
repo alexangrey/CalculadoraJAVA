@@ -1,0 +1,16 @@
+#Se implemento la suma
+void main() {
+
+    String texto;
+
+    texto = IO.readln("Ingrese el primer valor: ");
+    int num1 = Integer.parseInt(texto);
+
+    texto = IO.readln("Ingrese el segundo valor: ");
+    int num2 = Integer.parseInt(texto);
+
+    int suma = num1 + num2;
+
+    IO.println("El resultado es: " + suma);
+
+}
